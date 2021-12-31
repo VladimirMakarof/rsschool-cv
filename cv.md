@@ -294,3 +294,8 @@ I’ve several educational projects.
 *	The Rolling Scopes School (currently)
 *	FreeCodeCamp / HTMLAcademy / Codecademy
 *	Youtube
+
+## English
+***
+Level: B1 (Intermediate)
+I studied English at school, after I entered the university there I also continued to study English. After university, 6 years ago I finished 2 levels at a language school. I use English in my international travels for communication with people. I am currently studying at a language school in St. Petersburg.
