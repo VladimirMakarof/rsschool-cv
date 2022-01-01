@@ -197,3 +197,145 @@ body {
   width: 40%;
   height: 100%;
 }
+@media (max-width: 767px) {
+  body.lock {
+    overflow: hidden;
+    font-size: 15px;
+  }
+  .section p {
+    width: 90%;
+  }
+  .hero-text {
+    left: 40%;
+  }
+  .hero-text h1 {
+    font-size: 35px;
+  }
+  .hero-text p {
+    font-size: 20px;
+  }
+  .my-photo {
+    width: 200px;
+    height: 200px;
+    top: 180px;
+    left: 40%;
+  }
+  .section {
+    padding: 30px;
+  }
+  .header-body {
+    margin-right: 30px;
+    height: 50px;
+    justify-content: end;
+  }
+
+  .header-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  .header-burger span {
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header-burger:before,
+  .header-burger:after {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header-burger:before {
+    top: 0;
+  }
+
+  .header-burger:after {
+    bottom: 0;
+  }
+
+  .header-burger.active span {
+    transform: scale(0);
+  }
+
+  .header-burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+
+  .header-burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+
+  .header-menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #f97b4d;
+    padding: 70px 10px 20px 10px;
+    transition: all 0.3s ease 0s;
+    z-index: 2;
+  }
+
+  .header-menu.active {
+    top: 0;
+  }
+
+  .header-list {
+    display: block;
+    margin-left: 70px;
+  }
+
+  .header-list li {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .contact {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 625px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 455px) {
+  .logo {
+    justify-content: space-around;
+  }
+
+  .contact-list li {
+    display: inline;
+    margin-right: 5px;
+  }
+
+  .contact-list li span {
+    display: none;
+  }
+  .hero-text {
+    left: 20%;
+  }
+  .my-photo {
+    top: 180px;
+    left: 20%;
+  }
+}
