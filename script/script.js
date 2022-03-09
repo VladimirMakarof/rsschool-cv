@@ -36,3 +36,4 @@ console.log('1. markup is valid    +10 \n 2. semantic markup, HTML5 tags: figure
 console.log('5. adaptive markup    +10 \n 6. adaptive burger menu    +10 \n 7. photo of the author CV    +10 \n 8. contacts for communication and a list of skills are designed as a list ul> li    +10');
 console.log('9. CV contains contacts for communication, brief information about myself, a list of skills, information about education and level of English     +10 \n 10. code example with highlighting.   +10');
 console.log('11. CV contains images-links to completed ones. When you click on the image, the project page opens in a new tab. Each project has a name, a short description, and a list of technologies used.   +10 \n 12. CV made in English +10');
+
