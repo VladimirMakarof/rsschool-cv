@@ -2,197 +2,218 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS & Git Basics</title>
-    <link rel="shortcut icon" href="logo/icons8-cv-16.png" type="image/x-icon">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML, CSS & Git Basics</title>
+  <link rel="shortcut icon" href="logo/icons8-cv-16.png" type="image/x-icon">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
 </head>
 
 <body class="body">
-    <div class="main-container">
-        <header>
-            <div class="header-bg">
-                <div class="header-body">
-                    <div class="header-burger">
-                        <span></span>
-                    </div>
-                    <nav class="header-menu">
-                        <ul class="header-list">
-                            <li>
-                                <a href="#contacts" class="header-link">My contacts</a>
-                            </li>
-                            <li>
-                                <a href="#About" class="header-link">About Me</a>
-                            </li>
-                            <li>
-                                <a href="#purposes" class="header-link">Purposes</a>
-                            </li>
-                            <li>
-                                <a href="#soft" class="header-link">Soft Skills</a>
-                            </li>
-                            <li>
-                                <a href="#skills" class="header-link">Tech Skills</a>
-                            </li>
-                            <li>
-                                <a href="#experience" class="header-link">Experience</a>
-                            </li>
-                            <li>
-                                <a href="#education" class="header-link">Education</a>
-                            </li>
-                            <li>
-                                <a href="#english" class="header-link">English</a>
-                            </li>
-                            <li>
-                                <a href="#sample" class="header-link">Sample code</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="my-info">
-                    <div class="hero">
-
-                        <img class="my-photo" src="img/1-208.jpg" alt="my photo">
-                        <div class="hero-text">
-                            <h1>Vladimir Makarov</h1>
-                            <p>Junior Frontend Developer</p>
-                        </div>
-                    </div>
-                </div>
+  <div class="main-container">
+    <header>
+      <div class="header-bg">
+        <div class="header-body">
+          <div class="header-burger">
+            <span></span>
+          </div>
+          <nav class="header-menu">
+            <ul class="header-list">
+              <li>
+                <a href="#contacts" class="header-link" data-i18="my_contacts">My contacts</a>
+              </li>
+              <li>
+                <a href="#About" class="header-link" data-i18="about_me">About Me</a>
+              </li>
+              <li>
+                <a href="#purposes" class="header-link" data-i18="purposes">Purposes</a>
+              </li>
+              <li>
+                <a href="#soft" class="header-link" data-i18="soft_skills">Soft Skills</a>
+              </li>
+              <li>
+                <a href="#skills" class="header-link" data-i18="tech_skills">Tech Skills</a>
+              </li>
+              <li>
+                <a href="#experience" class="header-link" data-i18="experience">Experience</a>
+              </li>
+              <li>
+                <a href="#education" class="header-link" data-i18="education">Education</a>
+              </li>
+              <li>
+                <a href="#english" class="header-link" data-i18="English">English</a>
+              </li>
+              <li>
+                <a href="#sample" class="header-link" data-i18="sample_code">Sample code</a>
+              </li>
+            </ul>
+            <div class="switch__lng lng__items">
+              <span class="lng__item link lng__span en header-link item__active">en</span>
+              <span class="lng__span">/</span>
+              <span class="lng__item link lng__span header-link ru">ru</span>
             </div>
-        </header>
-        <main>
-            <section class="contacts section" id="contacts">
-                <div class="container">
-                    <h2>My contacts</h2>
-                    <ul class="contacts-list">
+          </nav>
+        </div>
+        <div class="my-info">
+          <div class="hero">
 
-                        <li>
-                            <a href="mailto:Stan13.09@mail.ru"><svg class="icon">
-                                    <use xlink:href="logo/sprite.svg#email"></use>
-                                </svg></a>
-                        </li>
-                        <li>
-                            <a href="skype:makarov03.07?userinfo"><svg class="icon">
-                                    <use xlink:href="logo/sprite.svg#skype_icon"></use>
-                                </svg></a>
-                        </li>
-                        <li>
-                            <a href="tg://resolve?domain=@Vladimir_Makarof"><svg class="icon">
-                                    <use xlink:href="logo/sprite.svg#telegram_iconsvg"></use>
-                                </svg></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/VladimirMakarof"><svg class="icon">
-                                    <use xlink:href="logo/sprite.svg#github-logo"></use>
-                                </svg></a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="about-me section" id="About">
-                <h2>About Me</h2>
-                <p>I am currently taking a higher education course in the specialty of web development at ITMO
-                    University. I want to become
-                    a Full-stack Developer.</p>
-                <p>As I am only at the beginning of my path, I do not currently have a lengthy amount of experience, but
-                    am gaining
-                    experience through several educational projects. I love to learn and study on my own and I’m
-                    currently studying online
-                    to achieve my goal of becoming a professional developer.</p>
-            </section>
-            <section class="purposes section" id="purposes">
-                <h2>Purposes</h2>
-                <p>I strive for creative, demanded and profitable work. The work of a programmer meets all these goals.
-                    Faced
-                    with various kinds of tasks and find elegant solutions for them, allows you to assert yourself, and
-                    financial independence is a huge plus.</p>
-            </section>
-            <section class="skills section" id="soft">
-                <div>
-                    <h2>Soft Skills</h2>
-                    <ul>
-                        <li>Communication. Effective communication is key in both work and home settings.</li>
-                        <li>Willingness to learn. Modern technologies are changing rapidly. I need to learn new things
-                            to
-                            keep
-                            abreast of
-                            technological changes and updates throughout the development environment.</li>
-                        <li>Creativity. Having and creating new visions for projects is exciting and interesting for me.
-                        </li>
-                        <li>Problem solving. I take ownership for any mistakes I make and I am quick to correct them. I
-                            am
-                            great
-                            at finding
-                            solutions to problems on my own and in a team setting.</li>
-                        <li>Teamwork. It is very important for all team members to be heard and work cooperatively for
-                            the
-                            success of all projects
-                            and the company as a whole.</li>
-                        <li>Open-mindedness. I look at problems as an opportunity to increase my knowledge of web
-                            development.
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Tech Skills</h2>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>Basic JavaScript</li>
-                        <li>Bootstrap 4 / Flexbox</li>
-                        <li>npm</li>
-                        <li>Git / GitHub</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="experience education section" id="experience">
-                <div>
-                    <h2>Experience</h2>
-                    <p>I’ve several educational projects.</p>
-                    <ul>
-                        <li><a href="https://vladimirmakarof.github.io/super-chair/">Super-chair - Website for the sale
-                                of
-                                chairs.</a></li>
-                        <li><a href="https://vladimirmakarof.github.io/vikings/">Website about the popular TV series
-                                Vikings.</a></li>
-                    </ul>
-                </div>
-                <div id="education">
-                    <h2>Education</h2>
-                    <ul>
-                        <li>ITMO University (St. Petersburg, Russia)</li>
-                        <li>GeekBrain</li>
-                        <li>GloCademy marathones</li>
-                        <li>Loftschool</li>
-                        <li>The Rolling Scopes School (currently)</li>
-                        <li>FreeCodeCamp / HTMLAcademy / Codecademy</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="english section" id="english">
-                <h2>English</h2>
-                <p>Level: B1 (Intermediate)
-                    I studied English in school. Upon entering my university I also continued to study English. After
-                    attending university,
-                    I finished 2 levels at a language school. I use English in my international travels to communication
-                    with people. I am
-                    currently studying at a language school in St. Petersburg.</p>
-            </section>
-            <section class="SampleCode section" id="sample">
-                <h2>Sample code</h2>
-                <p>Sports programming tasks on the Codeforces in the submission section (JS solution). Sample code from
-                    Codewars, 6 kyu 'Create Phone Number. Write a function that accepts an array of 10 integers (between
-                    0 and
-                    9), that returns a string of those numbers in the form of a phone number.':</p>
-                <pre>
+            <img class="my-photo" src="img/1-208.jpg" alt="my photo">
+            <div class="hero-text">
+              <h1 data-i18="hero-title">Vladimir Makarov</h1>
+              <p>Junior Frontend Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="contacts section" id="contacts">
+        <div class="container">
+          <h2 data-i18="my_contacts">My contacts</h2>
+          <ul class="contacts-list">
+
+            <li>
+              <a href="mailto:Stan13.09@mail.ru"><svg class="icon">
+                  <use xlink:href="logo/sprite.svg#email"></use>
+                </svg></a>
+            </li>
+            <li>
+              <a href="skype:makarov03.07?userinfo"><svg class="icon">
+                  <use xlink:href="logo/sprite.svg#skype_icon"></use>
+                </svg></a>
+            </li>
+            <li>
+              <a href="tg://resolve?domain=@Vladimir_Makarof"><svg class="icon">
+                  <use xlink:href="logo/sprite.svg#telegram_iconsvg"></use>
+                </svg></a>
+            </li>
+            <li>
+              <a href="https://github.com/VladimirMakarof"><svg class="icon">
+                  <use xlink:href="logo/sprite.svg#github-logo"></use>
+                </svg></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-me section" id="About">
+        <h2 data-i18="about_me">About Me</h2>
+        <p data-i18="about_me_text-1">I am currently taking a higher education course in the specialty of web
+          development at ITMO
+          University. I want to become
+          a Full-stack Developer.</p>
+        <p data-i18="about_me_text-2">As I am only at the beginning of my path, I do not currently have a lengthy amount
+          of experience,
+          but
+          am gaining
+          experience through several educational projects. I love to learn and study on my own and I’m
+          currently studying online
+          to achieve my goal of becoming a professional developer.</p>
+      </section>
+      <section class="purposes section" id="purposes">
+        <h2 data-i18="purposes">Purposes</h2>
+        <p data-i18="purposes-text">I strive for creative, demanded and profitable work. The work of a programmer meets
+          all these
+          goals.
+          Faced
+          with various kinds of tasks and find elegant solutions for them, allows you to assert yourself, and
+          financial independence is a huge plus.</p>
+      </section>
+      <section class="skills section" id="soft">
+        <div>
+          <h2 data-i18="soft_skills">Soft Skills</h2>
+          <ul>
+            <li data-i18="soft_skills-1">Communication. Effective communication is key in both work and home settings.
+            </li>
+            <li data-i18="soft_skills-2">Willingness to learn. Modern technologies are changing rapidly. I need to learn
+              new things
+              to
+              keep
+              abreast of
+              technological changes and updates throughout the development environment.</li>
+            <li data-i18="soft_skills-3">Creativity. Having and creating new visions for projects is exciting and
+              interesting for me.
+            </li>
+            <li data-i18="soft_skills-4">Problem solving. I take ownership for any mistakes I make and I am quick to
+              correct them. I
+              am
+              great
+              at finding
+              solutions to problems on my own and in a team setting.</li>
+            <li data-i18="soft_skills-5">Teamwork. It is very important for all team members to be heard and work
+              cooperatively for
+              the
+              success of all projects
+              and the company as a whole.</li>
+            <li data-i18="soft_skills-6">Open-mindedness. I look at problems as an opportunity to increase my knowledge
+              of web
+              development.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 data-i18="tech_skills">Tech Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Basic JavaScript</li>
+            <li>Bootstrap 4 / Flexbox</li>
+            <li>npm</li>
+            <li>Git / GitHub</li>
+            <li>Sass</li>
+          </ul>
+        </div>
+      </section>
+      <section class="experience education section" id="experience">
+        <div>
+          <h2 data-i18="experience">Experience</h2>
+          <ul>
+
+            <p data-i18="experience-projects">I’ve several educational projects.</p>
+            <li><a href="https://vladimirmakarof.github.io/portfolio/#en">The photographer's portfolio with a custom
+                video player.</a></li>
+            <li><a href="https://vladimirmakarof.github.io/super-chair/">Super-chair - Website for the sale
+                of
+                chairs.</a></li>
+            <li><a href="https://vladimirmakarof.github.io/vikings/">Website about the popular TV series
+                Vikings.</a></li>
+
+          </ul>
+        </div>
+        <div id="education">
+          <h2 data-i18="education">Education</h2>
+          <ul>
+            <li>ITMO University (St. Petersburg, Russia)</li>
+            <li>GeekBrain</li>
+            <li>GloCademy marathones</li>
+            <li>Loftschool</li>
+            <li>Epam The Rolling Scopes School (currently)</li>
+            <li>FreeCodeCamp / HTMLAcademy / Codecademy</li>
+          </ul>
+        </div>
+      </section>
+      <section class="english section" id="english">
+        <h2 data-i18="English">English</h2>
+        <p data-i18="English-text">Level: B1 (Intermediate)
+          I studied English in school. Upon entering my university I also continued to study English. After
+          attending university,
+          I finished 2 levels at a language school. I use English in my international travels to communication
+          with people. I am
+          currently studying at a language school in St. Petersburg.</p>
+      </section>
+      <section class="SampleCode section" id="sample">
+        <h2 data-i18="sample_code">Sample code</h2>
+        <p>Sports programming tasks on the Codeforces in the submission section (JS solution). Sample code from
+          Codewars, 6 kyu 'Create Phone Number. Write a function that accepts an array of 10 integers (between
+          0 and
+          9), that returns a string of those numbers in the form of a phone number.':</p>
+        <pre>
         <code class="javascript">
         function createPhoneNumber(numbers){
           let checkPhone = /^\(\d{3}\)\s{1}\d{3}\-{1}\d{4}/;
@@ -227,25 +248,26 @@
         }
         </code>
         </pre>
-            </section>
-        </main>
-        <footer class="main-footer">
-            <div class="social-icons">
-                <ul>
-                    <li><a href="https://github.com/VladimirMakarof"><img src='logo/GitHub-Mark-120px-plus.png'
-                                alt="my_github" /></a>
-                    </li>
-                    <li><a href="https://rs.school/js/"><img src='logo/rs_school_js.svg' alt="rs_school_js" /></a></li>
-                </ul>
-            </div>
-            <article>
-                <time>2022-01-01</time>
-                <h4>Created in 2022</h4>
-            </article>
-            <p>Made by Makarov Vladimir © 2022</p>
-        </footer>
-    </div>
-    <script src="script/script.js"></script>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="social-icons">
+        <ul>
+          <li><a href="https://github.com/VladimirMakarof"><svg class="icon">
+                <use xlink:href="logo/sprite.svg#github-logo"></use>
+              </svg></a>
+          </li>
+          <li><a href="https://rs.school/js/"><img src='logo/rs_school_js.svg' alt="rs_school_js" /></a></li>
+        </ul>
+      </div>
+      <article>
+        <time>2022-01-01</time>
+        <h4>Created in 2022</h4>
+      </article>
+      <p>Made by Makarov Vladimir © 2022</p>
+    </footer>
+  </div>
+  <script src="script/script.js"></script>
 </body>
 
 </html>
