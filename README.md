@@ -8,7 +8,7 @@
 # CV#2. HTML, CSS & Git Basics & JS Basics
 
 Ваша задача - в репозитории `rsschool-cv` от ветки `gh-pages` создать ветку `rsschool-cv-html`, добавить в неё файлы `index.html` и `style.css` с произвольным содержимым, задеплоить их на GitHub Pages.  
-Выполненную работу можно увидеть [здесь](https://vladimirmakarof.github.io/rsschool-cv).
+Выполненную работу можно увидеть [здесь](https://vladimirmakarof.github.io/Project-rsschool-cv/).
 
 
 
